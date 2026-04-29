@@ -25,8 +25,7 @@ Analyzed Brazilian e-commerce dataset to extract business insights by performing
 ## Dashboard:
 ![Dashboard](dashboard.png.png)
 
-## Conclusion:
-## CONCLUSIONS
+## CONCLUSIONS:
 
 **What was done:** Integrated 9 Olist datasets using Pandas, cleaned data, and built a Power BI dashboard from 113,390 records.
 
