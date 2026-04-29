@@ -23,7 +23,7 @@ Analyzed Brazilian e-commerce dataset to extract business insights by performing
 - Evaluated order delivery vs cancellation rate
 
 ## Dashboard:
-![Dashboard](dashboard.png.png)
+![Dashboard](dashboard.png)
 
 ## CONCLUSIONS:
 
