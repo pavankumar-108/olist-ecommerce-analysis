@@ -26,4 +26,10 @@ Analyzed Brazilian e-commerce dataset to extract business insights by performing
 ![Dashboard](dashboard.png.png)
 
 ## Conclusion:
-Performed end-to-end data analysis to uncover sales trends, customer behavior, and key business insights, supported by an interactive Power BI dashboard.
+## CONCLUSIONS
+
+**What was done:** Integrated 9 Olist datasets using Pandas, cleaned data, and built a Power BI dashboard from 113,390 records.
+
+**Key Findings:** Total Revenue R$ 19.53M with AOV R$ 205.31. Peak sales of R$ 2.2M/month observed during May–Aug 2018. Top categories: bed_bath_table, health_beauty. 99%+ delivery success rate.
+
+**Business Value:** The dashboard enables real-time tracking of sales trends and delivery performance for data-driven decisions.
