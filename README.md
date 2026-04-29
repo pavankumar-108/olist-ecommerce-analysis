@@ -24,3 +24,6 @@ Analyzed Brazilian e-commerce dataset to extract business insights by performing
 
 ## Dashboard:
 ![Dashboard](dashboard.png.png)
+
+## Conclusion:
+Performed end-to-end data analysis to uncover sales trends, customer behavior, and key business insights, supported by an interactive Power BI dashboard.
