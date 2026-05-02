@@ -4,31 +4,38 @@
 ## Tools Used:
 - Python (Pandas, NumPy)
 - Matplotlib, Seaborn
-- Power BI
+- Power BI, DAX
 
 ## Project Overview:
-Analyzed Brazilian e-commerce dataset to extract business insights by performing data cleaning, preprocessing, and exploratory data analysis.
+Analyzed Brazilian e-commerce Olist dataset to extract business insights by performing data cleaning, preprocessing, and exploratory data analysis. Built an interactive Power BI dashboard using 5 core tables for real-time KPI monitoring.
 
 ## Key Steps:
-- Processed 100K+ transaction records using Pandas
-- Handled missing values and duplicates
-- Performed EDA to identify trends and patterns
-- Created key metrics: Total Revenue, Total Orders, AOV
-- Built an interactive Power BI dashboard
+- Processed 95.13K delivered order records using Pandas from 5 datasets: orders, customers, order_items, products, payments
+- Handled missing values, duplicates, and filtered to delivered orders only
+- Performed EDA to identify trends, patterns, and category performance
+- Created key metrics: Total Revenue R$ 14.98M, Total Orders 95.13K, AOV R$ 157.42
+- Built an interactive Power BI dashboard with year slicer and drill-down filters
 
 ## Insights:
-- Identified top-performing product categories
-- Analyzed monthly sales trends
-- Found top revenue-generating customers
-- Evaluated order delivery vs cancellation rate
+- Identified top-performing product category: beleza_saude (Health & Beauty) at R$ 1.4M
+- Analyzed monthly sales trends with peak revenue R$ 1.7M in May
+- Found top revenue-generating customers with R$ 14K+ individual revenue
+- Evaluated order delivery vs cancellation rate for accurate revenue reporting
 
 ## Dashboard:
 ![Dashboard](dashboard.png)
 
 ## CONCLUSIONS:
 
-**What was done:** Integrated 9 Olist datasets using Pandas, cleaned data, and built a Power BI dashboard from 113,390 records.
+**1. What Was Done**  
+- Integrated 5 Olist tables: orders, customers, order_items, products, payments  
+- Cleaned data + filtered to delivered orders only
 
-**Key Findings:** Total Revenue R$ 19.53M with AOV R$ 205.31. Peak sales of R$ 2.2M/month observed during May–Aug 2018. Top categories: bed_bath_table, health_beauty. 99%+ delivery success rate.
+**2. Key Findings**  
+- **R$ 14.98M revenue** from **95.13K orders**  
+- **AOV: R$ 157.42** | **Peak: R$ 1.7M in May**  
+- **Top category: beleza_saude** at R$ 1.4M
 
-**Business Value:** The dashboard enables real-time tracking of sales trends and delivery performance for data-driven decisions.
+**3. Business Value**  
+- Cleaned data enables accurate KPI tracking for real business decisions  
+- Dashboard-ready dataset supports revenue + category + customer analysis
